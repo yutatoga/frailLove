@@ -1,0 +1,886 @@
+TfrailLove
+v6
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Products/Debug-iphoneos/frailLove.app/Info.plist /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/ofxiOS-Info.plist
+cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist Build/Products/Debug-iphoneos/frailLove.app/ResourceRules.plist
+cCpResource Project.xcconfig Build/Products/Debug-iphoneos/frailLove.app/Project.xcconfig
+cCpResource /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworksCompiled/project/ios/CoreOF.xcconfig Build/Products/Debug-iphoneos/frailLove.app/CoreOF.xcconfig
+cCopyPNGFile /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Products/Debug-iphoneos/frailLove.app/Icon.png bin/data/Icon.png
+cCopyPNGFile /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Products/Debug-iphoneos/frailLove.app/Icon@2x.png bin/data/Icon@2x.png
+cCopyPNGFile /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Products/Debug-iphoneos/frailLove.app/Default.png bin/data/Default.png
+cCopyPNGFile /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Products/Debug-iphoneos/frailLove.app/Default@2x.png bin/data/Default@2x.png
+cCopyPNGFile /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Products/Debug-iphoneos/frailLove.app/Default-568h@2x~iphone.png bin/data/Default-568h@2x~iphone.png
+cProcessPCH++ /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Intermediates/PrecompiledHeaders/ofxiOS_Prefix-cstlzcsbskfggxeomvgnilxpwcto/ofxiOS_Prefix.pch.pch ofxiOS_Prefix.pch normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/frailLove.build/Debug-iphoneos/frailLove.build/Objects-normal/armv7/main.o /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/src/main.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/frailLove.build/Debug-iphoneos/frailLove.build/Objects-normal/armv7/ofApp.o /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/src/ofApp.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Products/Debug-iphoneos/frailLove.app/frailLove normal armv7
+cGenerateDSYMFile /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Products/Debug-iphoneos/frailLove.app.dSYM /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Products/Debug-iphoneos/frailLove.app/frailLove
+cPhaseScriptExecution Run\ Script /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Intermediates/frailLove.build/Debug-iphoneos/frailLove.build/Script-9255DD331112741900D6945E.sh
+cProcessProductPackaging /Users/gentleman/Library/MobileDevice/Provisioning\ Profiles/E9D30244-51FB-49D3-9B18-81C49F03D4A6.mobileprovision /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Products/Debug-iphoneos/frailLove.app/embedded.mobileprovision
+cTouch /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Products/Debug-iphoneos/frailLove.app
+cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Intermediates/frailLove.build/Debug-iphoneos/frailLove.build/frailLove.xcent
+cCodeSign /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Products/Debug-iphoneos/frailLove.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk
+c0000000053493FE10000000000000132
+t1397309409
+s306
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist
+c00000000531E49B70000000000000094
+t1394493879
+s148
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist
+c00000000531E49B70000000000000096
+t1394493879
+s150
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/SDKSettings.plist
+c00000000531E49B7000000000000036B
+t1394493879
+s875
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000531E49B9000000000000019E
+t1394493881
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c00000000531E49BB0000000000632990
+t1394493883
+s6498704
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c00000000531E49BB0000000000CF7800
+t1394493883
+s13596672
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c0000000053493F3D00000000004D7BC0
+t1397309245
+s5077952
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c00000000531E49BD0000000000152370
+t1394493885
+s1385328
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+c00000000531E49BD00000000002CB700
+t1394493885
+s2930432
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+c00000000531E49BD000000000006DCD0
+t1394493885
+s449744
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000531E49BF0000000000A90C10
+t1394493887
+s11078672
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/MapKit.framework/MapKit
+c00000000531E49BF00000000003C0F90
+t1394493887
+s3936144
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/OpenAL.framework/OpenAL
+c00000000531E49C000000000000D2B00
+t1394493888
+s862976
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c00000000531E49C100000000000417E0
+t1394493889
+s268256
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c00000000531E49C20000000000649DB0
+t1394493890
+s6593968
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c00000000531E49C40000000002759920
+t1394493892
+s41261344
+
+N/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Intermediates/PrecompiledHeaders/ofxiOS_Prefix-cstlzcsbskfggxeomvgnilxpwcto/ofxiOS_Prefix.pch.pch
+t1399801252
+s6216292
+
+N/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Intermediates/frailLove.build/Debug-iphoneos/frailLove.build/Objects-normal/armv7/frailLove.LinkFileList
+c00000000536F45A40000000000000153
+t1399801252
+s339
+
+N/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Intermediates/frailLove.build/Debug-iphoneos/frailLove.build/Objects-normal/armv7/main.o
+t1399801253
+s342072
+
+N/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Intermediates/frailLove.build/Debug-iphoneos/frailLove.build/Objects-normal/armv7/ofApp.o
+t1399801253
+s351512
+
+N/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Intermediates/frailLove.build/Debug-iphoneos/frailLove.build/Script-9255DD331112741900D6945E.sh
+c00000000536F45A40000000000000042
+t1399801252
+s66
+
+N/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Intermediates/frailLove.build/Debug-iphoneos/frailLove.build/frailLove.xcent
+t1399801256
+s392
+
+N/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Products/Debug-iphoneos/frailLove.app
+t1399801256
+s714
+
+N/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Products/Debug-iphoneos/frailLove.app.dSYM
+t2
+s0
+
+N/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Products/Debug-iphoneos/frailLove.app/CoreOF.xcconfig
+t1399801252
+s2601
+
+N/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Products/Debug-iphoneos/frailLove.app/Default-568h@2x~iphone.png
+t1399801256
+s17850
+
+N/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Products/Debug-iphoneos/frailLove.app/Default.png
+t1399801256
+s5884
+
+N/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Products/Debug-iphoneos/frailLove.app/Default@2x.png
+t1399801256
+s10949
+
+N/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Products/Debug-iphoneos/frailLove.app/Icon.png
+t1399801256
+s2287
+
+N/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Products/Debug-iphoneos/frailLove.app/Icon@2x.png
+t1399801256
+s3900
+
+N/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Products/Debug-iphoneos/frailLove.app/Info.plist
+t1399801252
+s1276
+
+N/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Products/Debug-iphoneos/frailLove.app/PkgInfo
+t1399801252
+s8
+
+N/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Products/Debug-iphoneos/frailLove.app/Project.xcconfig
+t1399801252
+s452
+
+N/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Products/Debug-iphoneos/frailLove.app/ResourceRules.plist
+t1399801252
+s150
+
+N/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Products/Debug-iphoneos/frailLove.app/embedded.mobileprovision
+t1399801256
+s7720
+
+N/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Products/Debug-iphoneos/frailLove.app/frailLove
+t1399801255
+s8644472
+
+N/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Project.xcconfig
+c00000000536F44B800000000000001C4
+t1399801016
+s452
+
+N/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/bin/data/Default-568h@2x~iphone.png
+c00000000536F44B800000000000045BA
+t1399801016
+s17850
+
+N/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/bin/data/Default.png
+c00000000536F44B800000000000016FC
+t1399801016
+s5884
+
+N/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/bin/data/Default@2x.png
+c00000000536F44B80000000000002AC5
+t1399801016
+s10949
+
+N/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/bin/data/Icon.png
+c00000000536F44B800000000000008EF
+t1399801016
+s2287
+
+N/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/bin/data/Icon@2x.png
+c00000000536F44B80000000000000F3C
+t1399801016
+s3900
+
+N/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/ofxiOS-Info.plist
+c00000000536F44B80000000000000605
+t1399801016
+s1541
+
+N/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/ofxiOS_Prefix.pch
+c00000000536F44B800000000000000B5
+t1399801016
+s181
+
+N/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/src/main.mm
+c00000000536F44B8000000000000009B
+t1399801016
+s155
+
+N/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/src/ofApp.mm
+c00000000536F459300000000000009F0
+t1399801235
+s2544
+
+N/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworksCompiled/lib/ios/libofxiOS_iphoneos_Debug.a
+c00000000536E6B2E0000000004C04998
+t1399745326
+s79710616
+
+N/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworksCompiled/project/ios/CoreOF.xcconfig
+c0000000053379B680000000000000A29
+t1396153192
+s2601
+
+N/Users/gentleman/Library/MobileDevice/Provisioning Profiles/E9D30244-51FB-49D3-9B18-81C49F03D4A6.mobileprovision
+c00000000536E61F10000000000001E28
+t1399742961
+s7720
+
+CBuild AST from /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/src/main.mm
+r0
+
+CBuild AST from /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/src/ofApp.mm
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesd4f011247d1fb941^efc612247d1fb941^---0#1#1#--18"Check dependencies36"FF29EC60-307B-44C0-83D1-C75F73B12BF0-
+
+CCodeSign /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Products/Debug-iphoneos/frailLove.app
+s421494056.282557
+e421494058.000062
+r1
+xCodeSign
+x/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Products/Debug-iphoneos/frailLove.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection52"CodeSign Build/Products/Debug-iphoneos/frailLove.app52"CodeSign Build/Products/Debug-iphoneos/frailLove.app3bc24d287d1fb941^b804002a7d1fb941^---0#0#1#-19%DVTDocumentLocation2@134"file://localhost/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Products/Debug-iphoneos/frailLove.app/0000000000000000^1153"CodeSign Build/Products/Debug-iphoneos/frailLove.app    cd /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove    export CODESIGN_ALLOCATE=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    Using code signing identity "iPhone Developer: Yuta Toga (EHADUUTX9G)" and provisioning profile "iOS Team Provisioning Profile: *" (E9D30244-51FB-49D3-9B18-81C49F03D4A6)    /usr/bin/codesign --force --sign D5E87BAC2F3E06ACD19B612C07B7354FD02099A7 --resource-rules=/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Products/Debug-iphoneos/frailLove.app/ResourceRules.plist --entitlements /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Intermediates/frailLove.build/Debug-iphoneos/frailLove.build/frailLove.xcent /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Products/Debug-iphoneos/frailLove.app36"362FF152-D22A-40D3-92F3-6EB8B75B7D39-
+b103AA426-D034-47EE-84D7-73AD65A9996F
+
+CCompileC Build/Intermediates/frailLove.build/Debug-iphoneos/frailLove.build/Objects-normal/armv7/main.o /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/src/main.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s421494053.031824
+e421494053.905944
+r1
+xCompileC
+xBuild/Intermediates/frailLove.build/Debug-iphoneos/frailLove.build/Objects-normal/armv7/main.o
+x/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/src/main.mm
+xnormal
+xarmv7
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/src/main.mm
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/ofMain.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/utils/ofConstants.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/tess2/include/tesselator.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/utils/ofFileUtils.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/File.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/Foundation.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/Config.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/Platform.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/Platform_POSIX.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/Bugcheck.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/Types.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/Timestamp.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/File_UNIX.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/utils/ofLog.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/types/ofTypes.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/types/ofColor.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/math/ofMath.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/types/ofPoint.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/math/ofVec3f.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/math/ofVec2f.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/math/ofVec4f.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/Mutex.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/Exception.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/ScopedLock.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/Mutex_POSIX.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/utils/ofSystemUtils.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/utils/ofThread.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/Thread.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/Thread_POSIX.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/Runnable.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/SignalHandler.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/Event.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/Event_POSIX.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/RefCountedObject.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/AtomicCounter.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/AutoPtr.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/utils/ofURLFileLoader.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/events/ofEvents.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/events/ofEventUtils.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/PriorityEvent.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/AbstractEvent.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/SingletonHolder.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/SharedPtr.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/ActiveResult.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/ActiveMethod.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/ActiveRunnable.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/ActiveStarter.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/ThreadPool.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/PriorityStrategy.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/NotificationStrategy.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/AbstractPriorityDelegate.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/AbstractDelegate.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/PriorityDelegate.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/PriorityExpire.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/FunctionPriorityDelegate.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/events/ofDelegate.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/Condition.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/ScopedUnlock.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/utils/ofUtils.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/Path.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/types/ofBaseTypes.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/types/ofRectangle.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/3d/ofMesh.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/gl/ofGLUtils.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/graphics/ofPixels.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/math/ofMatrix4x4.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/math/ofQuaternion.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/utils/ofXml.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/DOM/Document.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/XML/XML.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/DOM/AbstractContainerNode.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/DOM/AbstractNode.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/DOM/Node.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/DOM/EventTarget.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/DOM/DOMObject.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/XML/XMLString.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/SAX/NamespaceSupport.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/DOM/MutationEvent.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/DOM/Event.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/DOM/DocumentEvent.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/DOM/Element.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/XML/Name.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/XML/NamePool.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/AutoReleasePool.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/DOM/DocumentFragment.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/DOM/DOMParser.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/SAX/SAXParser.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/SAX/XMLReader.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/XML/ParserEngine.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/XML/expat.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/XML/expat_external.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/XML/XMLStream.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/SAX/Locator.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/TextEncoding.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/DOM/DOMException.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/XML/XMLException.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/SAX/SAXException.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/XML/XMLWriter.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/SAX/ContentHandler.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/SAX/LexicalHandler.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/SAX/DTDHandler.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/StreamConverter.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/UnbufferedStreamBuf.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/StreamUtil.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/DOM/DOMWriter.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/DOM/Attr.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/DOM/Text.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/DOM/CharacterData.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/DOM/NodeIterator.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/DOM/NodeFilter.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/DOM/NamedNodeMap.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/DOM/ChildNodesList.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/DOM/NodeList.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/types/ofParameter.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/types/ofParameterGroup.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/Any.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/math/ofVectorMath.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/math/ofMatrix3x3.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/gl/ofFbo.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/gl/ofTexture.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/gl/ofVboMesh.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/gl/ofVbo.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/gl/ofGLRenderer.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/graphics/ofPolyline.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/graphics/ofGraphics.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/utils/ofMatrixStack.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/gl/ofLight.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/3d/ofNode.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/3d/of3dUtils.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/graphics/of3dGraphics.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/3d/of3dPrimitives.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/gl/ofMaterial.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/gl/ofShader.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/RegularExpression.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/app/ofAppBaseWindow.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/gl/ofGLProgrammableRenderer.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/graphics/ofImage.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/graphics/ofPath.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/graphics/ofTessellator.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/graphics/ofRendererCollection.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/graphics/ofTrueTypeFont.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/app/ofBaseApp.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/app/ofAppRunner.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/sound/ofSoundStream.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/sound/ofBaseSoundStream.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/addons/ofxiOS/src/sound/ofxiOSSoundStream.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/sound/ofSoundPlayer.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/sound/ofBaseSoundPlayer.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/addons/ofxiOS/src/sound/ofxiOSSoundPlayer.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/video/ofVideoGrabber.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/addons/ofxiOS/src/video/ofxiOSVideoGrabber.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/video/ofVideoPlayer.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/addons/ofxiOS/src/video/ofxiOSVideoPlayer.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/3d/ofCamera.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/3d/ofEasyCam.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/src/ofApp.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/addons/ofxiOS/src/ofxiOS.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/addons/ofxAccelerometer/src/ofxAccelerometer.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/addons/ofxiOS/src/events/ofxiOSAlerts.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/addons/ofxiOS/src/events/ofxiOSAlertsListener.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/addons/ofxiOS/src/app/ofxiOSApp.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/addons/ofxMultiTouch/src/ofxMultiTouch.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/addons/ofxMultiTouch/src/ofxMultiTouchListener.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/addons/ofxiOS/src/utils/ofxiOSExtras.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/addons/ofxiOS/src/app/ofAppiOSWindow.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/addons/ofxiOS/src/core/ofxiOSAppDelegate.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/addons/ofxiOS/src/core/ofxiOSEAGLView.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/addons/ofxiOS/src/gl/EAGLView.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/addons/ofxiOS/src/gl/ESRenderer.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/addons/ofxiOS/src/utils/ofxiOSKeyboard.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/addons/ofxiOS/src/utils/ofxiOSCoreLocation.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/addons/ofxiOS/src/utils/ofxiOSImagePicker.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/addons/ofxiOS/src/utils/ofxiOSMapKit.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/addons/ofxiOS/src/utils/ofxiOSMapKitListener.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/src/main.mm186"CompileC Build/Intermediates/frailLove.build/Debug-iphoneos/frailLove.build/Objects-normal/armv7/main.o src/main.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compilered6408257d1fb941^40f9e7257d1fb941^---0#0#1#-19%DVTDocumentLocation2@101"file://localhost/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/src/main.mm0000000000000000^5018"CompileC Build/Intermediates/frailLove.build/Debug-iphoneos/frailLove.build/Objects-normal/armv7/main.o src/main.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -stdlib=libstdc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wno-protocol -Wdeprecated-declarations -Wno-invalid-offsetof -g -fvisibility-inlines-hidden -Wno-sign-conversion -miphoneos-version-min=3.1 -iquote /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Intermediates/frailLove.build/Debug-iphoneos/frailLove.build/frailLove-generated-files.hmap -I/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Intermediates/frailLove.build/Debug-iphoneos/frailLove.build/frailLove-own-target-headers.hmap -I/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Intermediates/frailLove.build/Debug-iphoneos/frailLove.build/frailLove-all-target-headers.hmap -iquote /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Intermediates/frailLove.build/Debug-iphoneos/frailLove.build/frailLove-project-headers.hmap -I/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Products/Debug-iphoneos/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../addons/ofxiOS -I../../../addons/ofxiOS/src -I../../../addons/ofxiOS/src/app -I../../../addons/ofxiOS/src/core -I../../../addons/ofxiOS/src/events -I../../../addons/ofxiOS/src/gl -I../../../addons/ofxiOS/src/sound -I../../../addons/ofxiOS/src/utils -I../../../addons/ofxiOS/src/video -I../../../addons/ofxMultiTouch -I../../../addons/ofxMultiTouch/src -I../../../addons/ofxAccelerometer -I../../../addons/ofxAccelerometer/src -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/rtaudio/include -I../../../libs/glu/include_ios -I../../../libs/openssl/include -I/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Intermediates/frailLove.build/Debug-iphoneos/frailLove.build/DerivedSources/armv7 -I/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Intermediates/frailLove.build/Debug-iphoneos/frailLove.build/DerivedSources -F/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Products/Debug-iphoneos -include /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Intermediates/PrecompiledHeaders/ofxiOS_Prefix-cstlzcsbskfggxeomvgnilxpwcto/ofxiOS_Prefix.pch -MMD -MT dependencies -MF /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Intermediates/frailLove.build/Debug-iphoneos/frailLove.build/Objects-normal/armv7/main.d --serialize-diagnostics /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Intermediates/frailLove.build/Debug-iphoneos/frailLove.build/Objects-normal/armv7/main.dia -c /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/src/main.mm -o /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Intermediates/frailLove.build/Debug-iphoneos/frailLove.build/Objects-normal/armv7/main.o36"CE1D1A95-A16D-43D0-8816-C017AF0A0C52-
+b103AA426-D034-47EE-84D7-73AD65A9996F
+
+CCompileC Build/Intermediates/frailLove.build/Debug-iphoneos/frailLove.build/Objects-normal/armv7/ofApp.o /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/src/ofApp.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s421494053.031838
+e421494053.907289
+r1
+xCompileC
+xBuild/Intermediates/frailLove.build/Debug-iphoneos/frailLove.build/Objects-normal/armv7/ofApp.o
+x/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/src/ofApp.mm
+xnormal
+xarmv7
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/src/ofApp.mm
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/src/ofApp.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/ofMain.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/utils/ofConstants.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/tess2/include/tesselator.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/utils/ofFileUtils.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/File.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/Foundation.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/Config.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/Platform.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/Platform_POSIX.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/Bugcheck.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/Types.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/Timestamp.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/File_UNIX.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/utils/ofLog.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/types/ofTypes.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/types/ofColor.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/math/ofMath.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/types/ofPoint.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/math/ofVec3f.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/math/ofVec2f.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/math/ofVec4f.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/Mutex.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/Exception.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/ScopedLock.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/Mutex_POSIX.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/utils/ofSystemUtils.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/utils/ofThread.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/Thread.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/Thread_POSIX.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/Runnable.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/SignalHandler.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/Event.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/Event_POSIX.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/RefCountedObject.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/AtomicCounter.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/AutoPtr.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/utils/ofURLFileLoader.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/events/ofEvents.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/events/ofEventUtils.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/PriorityEvent.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/AbstractEvent.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/SingletonHolder.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/SharedPtr.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/ActiveResult.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/ActiveMethod.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/ActiveRunnable.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/ActiveStarter.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/ThreadPool.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/PriorityStrategy.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/NotificationStrategy.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/AbstractPriorityDelegate.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/AbstractDelegate.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/PriorityDelegate.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/PriorityExpire.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/FunctionPriorityDelegate.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/events/ofDelegate.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/Condition.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/ScopedUnlock.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/utils/ofUtils.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/Path.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/types/ofBaseTypes.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/types/ofRectangle.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/3d/ofMesh.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/gl/ofGLUtils.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/graphics/ofPixels.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/math/ofMatrix4x4.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/math/ofQuaternion.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/utils/ofXml.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/DOM/Document.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/XML/XML.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/DOM/AbstractContainerNode.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/DOM/AbstractNode.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/DOM/Node.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/DOM/EventTarget.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/DOM/DOMObject.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/XML/XMLString.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/SAX/NamespaceSupport.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/DOM/MutationEvent.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/DOM/Event.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/DOM/DocumentEvent.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/DOM/Element.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/XML/Name.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/XML/NamePool.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/AutoReleasePool.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/DOM/DocumentFragment.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/DOM/DOMParser.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/SAX/SAXParser.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/SAX/XMLReader.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/XML/ParserEngine.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/XML/expat.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/XML/expat_external.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/XML/XMLStream.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/SAX/Locator.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/TextEncoding.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/DOM/DOMException.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/XML/XMLException.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/SAX/SAXException.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/XML/XMLWriter.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/SAX/ContentHandler.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/SAX/LexicalHandler.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/SAX/DTDHandler.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/StreamConverter.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/UnbufferedStreamBuf.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/StreamUtil.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/DOM/DOMWriter.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/DOM/Attr.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/DOM/Text.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/DOM/CharacterData.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/DOM/NodeIterator.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/DOM/NodeFilter.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/DOM/NamedNodeMap.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/DOM/ChildNodesList.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/DOM/NodeList.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/types/ofParameter.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/types/ofParameterGroup.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/Any.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/math/ofVectorMath.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/math/ofMatrix3x3.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/gl/ofFbo.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/gl/ofTexture.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/gl/ofVboMesh.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/gl/ofVbo.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/gl/ofGLRenderer.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/graphics/ofPolyline.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/graphics/ofGraphics.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/utils/ofMatrixStack.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/gl/ofLight.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/3d/ofNode.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/3d/of3dUtils.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/graphics/of3dGraphics.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/3d/of3dPrimitives.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/gl/ofMaterial.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/gl/ofShader.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/include/Poco/RegularExpression.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/app/ofAppBaseWindow.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/gl/ofGLProgrammableRenderer.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/graphics/ofImage.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/graphics/ofPath.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/graphics/ofTessellator.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/graphics/ofRendererCollection.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/graphics/ofTrueTypeFont.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/app/ofBaseApp.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/app/ofAppRunner.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/sound/ofSoundStream.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/sound/ofBaseSoundStream.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/addons/ofxiOS/src/sound/ofxiOSSoundStream.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/sound/ofSoundPlayer.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/sound/ofBaseSoundPlayer.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/addons/ofxiOS/src/sound/ofxiOSSoundPlayer.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/video/ofVideoGrabber.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/addons/ofxiOS/src/video/ofxiOSVideoGrabber.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/video/ofVideoPlayer.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/addons/ofxiOS/src/video/ofxiOSVideoPlayer.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/3d/ofCamera.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworks/3d/ofEasyCam.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/addons/ofxiOS/src/ofxiOS.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/addons/ofxAccelerometer/src/ofxAccelerometer.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/addons/ofxiOS/src/events/ofxiOSAlerts.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/addons/ofxiOS/src/events/ofxiOSAlertsListener.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/addons/ofxiOS/src/app/ofxiOSApp.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/addons/ofxMultiTouch/src/ofxMultiTouch.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/addons/ofxMultiTouch/src/ofxMultiTouchListener.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/addons/ofxiOS/src/utils/ofxiOSExtras.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/addons/ofxiOS/src/app/ofAppiOSWindow.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/addons/ofxiOS/src/core/ofxiOSAppDelegate.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/addons/ofxiOS/src/core/ofxiOSEAGLView.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/addons/ofxiOS/src/gl/EAGLView.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/addons/ofxiOS/src/gl/ESRenderer.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/addons/ofxiOS/src/utils/ofxiOSKeyboard.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/addons/ofxiOS/src/utils/ofxiOSCoreLocation.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/addons/ofxiOS/src/utils/ofxiOSImagePicker.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/addons/ofxiOS/src/utils/ofxiOSMapKit.h
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/addons/ofxiOS/src/utils/ofxiOSMapKitListener.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Compile /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/src/ofApp.mm188"CompileC Build/Intermediates/frailLove.build/Debug-iphoneos/frailLove.build/Objects-normal/armv7/ofApp.o src/ofApp.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler6b6308257d1fb941^5645e8257d1fb941^---0#0#1#-19%DVTDocumentLocation2@102"file://localhost/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/src/ofApp.mm0000000000000000^5024"CompileC Build/Intermediates/frailLove.build/Debug-iphoneos/frailLove.build/Objects-normal/armv7/ofApp.o src/ofApp.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -stdlib=libstdc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wno-protocol -Wdeprecated-declarations -Wno-invalid-offsetof -g -fvisibility-inlines-hidden -Wno-sign-conversion -miphoneos-version-min=3.1 -iquote /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Intermediates/frailLove.build/Debug-iphoneos/frailLove.build/frailLove-generated-files.hmap -I/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Intermediates/frailLove.build/Debug-iphoneos/frailLove.build/frailLove-own-target-headers.hmap -I/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Intermediates/frailLove.build/Debug-iphoneos/frailLove.build/frailLove-all-target-headers.hmap -iquote /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Intermediates/frailLove.build/Debug-iphoneos/frailLove.build/frailLove-project-headers.hmap -I/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Products/Debug-iphoneos/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../addons/ofxiOS -I../../../addons/ofxiOS/src -I../../../addons/ofxiOS/src/app -I../../../addons/ofxiOS/src/core -I../../../addons/ofxiOS/src/events -I../../../addons/ofxiOS/src/gl -I../../../addons/ofxiOS/src/sound -I../../../addons/ofxiOS/src/utils -I../../../addons/ofxiOS/src/video -I../../../addons/ofxMultiTouch -I../../../addons/ofxMultiTouch/src -I../../../addons/ofxAccelerometer -I../../../addons/ofxAccelerometer/src -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/rtaudio/include -I../../../libs/glu/include_ios -I../../../libs/openssl/include -I/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Intermediates/frailLove.build/Debug-iphoneos/frailLove.build/DerivedSources/armv7 -I/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Intermediates/frailLove.build/Debug-iphoneos/frailLove.build/DerivedSources -F/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Products/Debug-iphoneos -include /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Intermediates/PrecompiledHeaders/ofxiOS_Prefix-cstlzcsbskfggxeomvgnilxpwcto/ofxiOS_Prefix.pch -MMD -MT dependencies -MF /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Intermediates/frailLove.build/Debug-iphoneos/frailLove.build/Objects-normal/armv7/ofApp.d --serialize-diagnostics /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Intermediates/frailLove.build/Debug-iphoneos/frailLove.build/Objects-normal/armv7/ofApp.dia -c /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/src/ofApp.mm -o /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Intermediates/frailLove.build/Debug-iphoneos/frailLove.build/Objects-normal/armv7/ofApp.o36"DFFF74C0-AB76-4BE1-BECB-5222317ABF41-
+b103AA426-D034-47EE-84D7-73AD65A9996F
+
+CCopyPNGFile /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Products/Debug-iphoneos/frailLove.app/Default-568h@2x~iphone.png bin/data/Default-568h@2x~iphone.png
+s421494052.097274
+e421494052.300761
+r1
+xCopyPNGFile
+x/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Products/Debug-iphoneos/frailLove.app/Default-568h@2x~iphone.png
+xbin/data/Default-568h@2x~iphone.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection118"CopyPNGFile Build/Products/Debug-iphoneos/frailLove.app/Default-568h@2x~iphone.png bin/data/Default-568h@2x~iphone.png118"CopyPNGFile Build/Products/Debug-iphoneos/frailLove.app/Default-568h@2x~iphone.png bin/data/Default-568h@2x~iphone.png710019247d1fb941^b0014d247d1fb941^---0#0#1#-19%DVTDocumentLocation2@125"file://localhost/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/bin/data/Default-568h@2x~iphone.png0000000000000000^744"CopyPNGFile Build/Products/Debug-iphoneos/frailLove.app/Default-568h@2x~iphone.png bin/data/Default-568h@2x~iphone.png    cd /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/bin/data/Default-568h@2x~iphone.png /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Products/Debug-iphoneos/frailLove.app/Default-568h@2x~iphone.png36"021DB635-2FA4-4955-A494-818A686917E3-
+b103AA426-D034-47EE-84D7-73AD65A9996F
+
+CCopyPNGFile /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Products/Debug-iphoneos/frailLove.app/Default.png bin/data/Default.png
+s421494052.095850
+e421494052.301229
+r1
+xCopyPNGFile
+x/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Products/Debug-iphoneos/frailLove.app/Default.png
+xbin/data/Default.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"CopyPNGFile Build/Products/Debug-iphoneos/frailLove.app/Default.png bin/data/Default.png88"CopyPNGFile Build/Products/Debug-iphoneos/frailLove.app/Default.png bin/data/Default.png4dbf18247d1fb941^3a204d247d1fb941^---0#0#1#-19%DVTDocumentLocation2@110"file://localhost/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/bin/data/Default.png0000000000000000^684"CopyPNGFile Build/Products/Debug-iphoneos/frailLove.app/Default.png bin/data/Default.png    cd /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/bin/data/Default.png /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Products/Debug-iphoneos/frailLove.app/Default.png36"553DD4A3-847C-4630-8CEF-3F0582F9AB8F-
+b103AA426-D034-47EE-84D7-73AD65A9996F
+
+CCopyPNGFile /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Products/Debug-iphoneos/frailLove.app/Default@2x.png bin/data/Default@2x.png
+s421494052.095861
+e421494052.300869
+r1
+xCopyPNGFile
+x/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Products/Debug-iphoneos/frailLove.app/Default@2x.png
+xbin/data/Default@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"CopyPNGFile Build/Products/Debug-iphoneos/frailLove.app/Default@2x.png bin/data/Default@2x.png94"CopyPNGFile Build/Products/Debug-iphoneos/frailLove.app/Default@2x.png bin/data/Default@2x.pngebc918247d1fb941^bb0e4d247d1fb941^---0#0#1#-19%DVTDocumentLocation2@113"file://localhost/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/bin/data/Default@2x.png0000000000000000^696"CopyPNGFile Build/Products/Debug-iphoneos/frailLove.app/Default@2x.png bin/data/Default@2x.png    cd /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/bin/data/Default@2x.png /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Products/Debug-iphoneos/frailLove.app/Default@2x.png36"15560A98-8DF6-4982-8EF1-8FE1B4F640D4-
+b103AA426-D034-47EE-84D7-73AD65A9996F
+
+CCopyPNGFile /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Products/Debug-iphoneos/frailLove.app/Icon.png bin/data/Icon.png
+s421494052.095822
+e421494052.300767
+r1
+xCopyPNGFile
+x/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Products/Debug-iphoneos/frailLove.app/Icon.png
+xbin/data/Icon.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"CopyPNGFile Build/Products/Debug-iphoneos/frailLove.app/Icon.png bin/data/Icon.png82"CopyPNGFile Build/Products/Debug-iphoneos/frailLove.app/Icon.png bin/data/Icon.pngbdc418247d1fb941^29094d247d1fb941^---0#0#1#-19%DVTDocumentLocation2@107"file://localhost/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/bin/data/Icon.png0000000000000000^672"CopyPNGFile Build/Products/Debug-iphoneos/frailLove.app/Icon.png bin/data/Icon.png    cd /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/bin/data/Icon.png /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Products/Debug-iphoneos/frailLove.app/Icon.png36"A4FFFB65-0799-42F6-80BE-5FF2BFD59EF6-
+b103AA426-D034-47EE-84D7-73AD65A9996F
+
+CCopyPNGFile /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Products/Debug-iphoneos/frailLove.app/Icon@2x.png bin/data/Icon@2x.png
+s421494052.095836
+e421494052.301222
+r1
+xCopyPNGFile
+x/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Products/Debug-iphoneos/frailLove.app/Icon@2x.png
+xbin/data/Icon@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"CopyPNGFile Build/Products/Debug-iphoneos/frailLove.app/Icon@2x.png bin/data/Icon@2x.png88"CopyPNGFile Build/Products/Debug-iphoneos/frailLove.app/Icon@2x.png bin/data/Icon@2x.png13d418247d1fb941^6d1c4d247d1fb941^---0#0#1#-19%DVTDocumentLocation2@110"file://localhost/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/bin/data/Icon@2x.png0000000000000000^684"CopyPNGFile Build/Products/Debug-iphoneos/frailLove.app/Icon@2x.png bin/data/Icon@2x.png    cd /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/bin/data/Icon@2x.png /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Products/Debug-iphoneos/frailLove.app/Icon@2x.png36"A02A330F-AD05-4F07-8169-E2C992F24901-
+b103AA426-D034-47EE-84D7-73AD65A9996F
+
+CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist Build/Products/Debug-iphoneos/frailLove.app/ResourceRules.plist
+s421494052.086174
+e421494052.088358
+r1
+xCpResource
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist
+xBuild/Products/Debug-iphoneos/frailLove.app/ResourceRules.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Copy Build/Products/Debug-iphoneos/frailLove.app/ResourceRules.plist196"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist Build/Products/Debug-iphoneos/frailLove.app/ResourceRules.plistda1d16247d1fb941^9d9f16247d1fb941^---0#0#1#-19%DVTDocumentLocation2@153"file://localhost/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Products/Debug-iphoneos/frailLove.app/ResourceRules.plist003820abdcffdf42^944"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist Build/Products/Debug-iphoneos/frailLove.app/ResourceRules.plist    cd /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Products/Debug-iphoneos/frailLove.app36"0738655A-B7FC-496D-A6CF-A39F6F74A14D-
+b103AA426-D034-47EE-84D7-73AD65A9996F
+
+CCpResource /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworksCompiled/project/ios/CoreOF.xcconfig Build/Products/Debug-iphoneos/frailLove.app/CoreOF.xcconfig
+s421494052.095819
+e421494052.098925
+r1
+xCpResource
+x/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworksCompiled/project/ios/CoreOF.xcconfig
+xBuild/Products/Debug-iphoneos/frailLove.app/CoreOF.xcconfig
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Copy Build/Products/Debug-iphoneos/frailLove.app/CoreOF.xcconfig178"CpResource /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworksCompiled/project/ios/CoreOF.xcconfig Build/Products/Debug-iphoneos/frailLove.app/CoreOF.xcconfig1abf18247d1fb941^695319247d1fb941^---0#0#1#-19%DVTDocumentLocation2@149"file://localhost/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Products/Debug-iphoneos/frailLove.app/CoreOF.xcconfig003820abdcffdf42^912"CpResource /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworksCompiled/project/ios/CoreOF.xcconfig Build/Products/Debug-iphoneos/frailLove.app/CoreOF.xcconfig    cd /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworksCompiled/project/ios/CoreOF.xcconfig /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Products/Debug-iphoneos/frailLove.app36"0D1DB935-1D31-49C8-8955-E9E69CB1BE5D-
+b103AA426-D034-47EE-84D7-73AD65A9996F
+
+CCpResource Project.xcconfig Build/Products/Debug-iphoneos/frailLove.app/Project.xcconfig
+s421494052.095817
+e421494052.102070
+r1
+xCpResource
+xProject.xcconfig
+xBuild/Products/Debug-iphoneos/frailLove.app/Project.xcconfig
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Copy Build/Products/Debug-iphoneos/frailLove.app/Project.xcconfig88"CpResource Project.xcconfig Build/Products/Debug-iphoneos/frailLove.app/Project.xcconfigf3cb18247d1fb941^ea211a247d1fb941^---0#0#1#-19%DVTDocumentLocation2@150"file://localhost/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Products/Debug-iphoneos/frailLove.app/Project.xcconfig003820abdcffdf42^805"CpResource Project.xcconfig Build/Products/Debug-iphoneos/frailLove.app/Project.xcconfig    cd /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Project.xcconfig /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Products/Debug-iphoneos/frailLove.app36"0BAF6631-757C-46F2-B645-C58092D1EB42-
+b103AA426-D034-47EE-84D7-73AD65A9996F
+
+CGenerateDSYMFile /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Products/Debug-iphoneos/frailLove.app.dSYM /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Products/Debug-iphoneos/frailLove.app/frailLove
+s421494055.084336
+e421494056.202437
+r1
+xGenerateDSYMFile
+x/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Products/Debug-iphoneos/frailLove.app.dSYM
+x/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Products/Debug-iphoneos/frailLove.app/frailLove
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection131"Generate /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Products/Debug-iphoneos/frailLove.app.dSYM119"GenerateDSYMFile Build/Products/Debug-iphoneos/frailLove.app.dSYM Build/Products/Debug-iphoneos/frailLove.app/frailLove50a615277d1fb941^6bd433287d1fb941^---0#0#1#-19%DVTDocumentLocation2@138"file://localhost/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Products/Debug-iphoneos/frailLove.app.dSYM003820abdcffdf42^743"GenerateDSYMFile Build/Products/Debug-iphoneos/frailLove.app.dSYM Build/Products/Debug-iphoneos/frailLove.app/frailLove    cd /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Products/Debug-iphoneos/frailLove.app/frailLove -o /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Products/Debug-iphoneos/frailLove.app.dSYM36"B9AEA23C-B80A-4E46-8DD2-CC0A49BA47F6-
+b103AA426-D034-47EE-84D7-73AD65A9996F
+
+CLd /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Products/Debug-iphoneos/frailLove.app/frailLove normal armv7
+s421494053.916472
+e421494055.075650
+r1
+xLd
+x/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Products/Debug-iphoneos/frailLove.app/frailLove
+xnormal
+xarmv7
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Intermediates/frailLove.build/Debug-iphoneos/frailLove.build/Objects-normal/armv7/frailLove.LinkFileList
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/crt1.3.1.o
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Intermediates/frailLove.build/Debug-iphoneos/frailLove.build/Objects-normal/armv7/main.o
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Intermediates/frailLove.build/Debug-iphoneos/frailLove.build/Objects-normal/armv7/ofApp.o
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/freetype/lib/ios/freetype.a
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/FreeImage/lib/ios/freeimage.a
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/lib/ios/PocoNet.a
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/lib/ios/PocoNetSSL.a
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/lib/ios/PocoCrypto.a
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/lib/ios/PocoXML.a
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/lib/ios/PocoZip.a
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/lib/ios/PocoUtil.a
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/poco/lib/ios/PocoFoundation.a
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/tess2/lib/ios/tess2.a
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/glu/lib/ios/glu-ios.a
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openssl/lib/ios/ssl.a
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openssl/lib/ios/crypto.a
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworksCompiled/lib/ios/libofxiOS_iphoneos_Debug.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/OpenAL.framework/OpenAL
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/MapKit.framework/MapKit
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/arc/libarclite_iphoneos.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libstdc++.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libgcc_s.1.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcache.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcommonCrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcompiler_rt.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcopyfile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcorecrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdyld.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libkeymgr.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/liblaunch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libmacho.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libremovefile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_asl.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_kernel.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_malloc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_notify.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_platform.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_pthread.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_sandbox.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_stats.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libunwind.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AVFoundation.framework/libAVFAudio.dylib
+old: warning: ignoring file ../../../libs/FreeImage/lib/osx/freeimage.a, missing required architecture armv7 in file ../../../libs/FreeImage/lib/osx/freeimage.a (1 slices)
+old: warning: ignoring file ../../../libs/glu/lib/ios/glu.a, file was built for archive which is not the architecture being linked (armv7): ../../../libs/glu/lib/ios/glu.a
+old: warning: 32-bit absolute address out of range (0x1003D20D0 max is 4GB): from _inflate_table + 0x00000674 (0x0010C270) to 0x1003D20D0
+old: warning: 32-bit absolute address out of range (0x1003D210E max is 4GB): from _inflate_table + 0x00000670 (0x0010C270) to 0x1003D210E
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection132"Link /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Products/Debug-iphoneos/frailLove.app/frailLove69"Ld Build/Products/Debug-iphoneos/frailLove.app/frailLove normal armv7c0b2ea257d1fb941^205e13277d1fb941^-616"ld: warning: ignoring file ../../../libs/FreeImage/lib/osx/freeimage.a, missing required architecture armv7 in file ../../../libs/FreeImage/lib/osx/freeimage.a (1 slices)ld: warning: ignoring file ../../../libs/glu/lib/ios/glu.a, file was built for archive which is not the architecture being linked (armv7): ../../../libs/glu/lib/ios/glu.ald: warning: 32-bit absolute address out of range (0x1003D20D0 max is 4GB): from _inflate_table + 0x00000674 (0x0010C270) to 0x1003D20D0ld: warning: 32-bit absolute address out of range (0x1003D210E max is 4GB): from _inflate_table + 0x00000670 (0x0010C270) to 0x1003D210E4(21%IDEActivityLogMessage2@157"Ignoring file ../../../libs/FreeImage/lib/osx/freeimage.a, missing required architecture armv7 in file ../../../libs/FreeImage/lib/osx/freeimage.a (1 slices)-421494054#0#171#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#27"Apple Mach-O Linker Warning--2@157"Ignoring file ../../../libs/glu/lib/ios/glu.a, file was built for archive which is not the architecture being linked (armv7): ../../../libs/glu/lib/ios/glu.a-421494054#171#171#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#27"Apple Mach-O Linker Warning--2@123"32-bit absolute address out of range (0x1003D20D0 max is 4GB): from _inflate_table + 0x00000674 (0x0010C270) to 0x1003D20D0-421494055#342#137#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#27"Apple Mach-O Linker Warning--2@123"32-bit absolute address out of range (0x1003D210E max is 4GB): from _inflate_table + 0x00000670 (0x0010C270) to 0x1003D210E-421494055#479#137#-1#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#27"Apple Mach-O Linker Warning--0#0#1#--2428"Ld Build/Products/Debug-iphoneos/frailLove.app/frailLove normal armv7    cd /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove    export IPHONEOS_DEPLOYMENT_TARGET=3.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -L/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Products/Debug-iphoneos -F/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Products/Debug-iphoneos -filelist /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Intermediates/frailLove.build/Debug-iphoneos/frailLove.build/Objects-normal/armv7/frailLove.LinkFileList -dead_strip -ObjC ../../../libs/FreeImage/lib/osx/freeimage.a ../../../libs/freetype/lib/ios/freetype.a ../../../libs/FreeImage/lib/ios/freeimage.a ../../../libs/poco/lib/ios/PocoNet.a ../../../libs/poco/lib/ios/PocoNetSSL.a ../../../libs/poco/lib/ios/PocoCrypto.a ../../../libs/poco/lib/ios/PocoXML.a ../../../libs/poco/lib/ios/PocoZip.a ../../../libs/poco/lib/ios/PocoUtil.a ../../../libs/poco/lib/ios/PocoFoundation.a ../../../libs/tess2/lib/ios/tess2.a ../../../libs/glu/lib/ios/glu.a ../../../libs/glu/lib/ios/glu-ios.a ../../../libs/openssl/lib/ios/ssl.a ../../../libs/openssl/lib/ios/crypto.a -stdlib=libstdc++ -fobjc-link-runtime -miphoneos-version-min=3.1 /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/libs/openFrameworksCompiled/lib/ios/libofxiOS_iphoneos_Debug.a -framework Foundation -framework UIKit -framework CoreGraphics -framework OpenGLES -framework QuartzCore -framework AudioToolbox -framework OpenAL -framework CoreLocation -framework CoreGraphics -framework AVFoundation -framework CoreMedia -framework CoreVideo -framework MapKit -Xlinker -dependency_info -Xlinker /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Intermediates/frailLove.build/Debug-iphoneos/frailLove.build/Objects-normal/armv7/frailLove_dependency_info.dat -o /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Products/Debug-iphoneos/frailLove.app/frailLove36"652C3992-D0AB-4D13-9134-3E7F9BB11C55-
+b103AA426-D034-47EE-84D7-73AD65A9996F
+
+CPhaseScriptExecution Run\ Script /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Intermediates/frailLove.build/Debug-iphoneos/frailLove.build/Script-9255DD331112741900D6945E.sh
+s421494056.212177
+e421494056.232997
+r1
+xPhaseScriptExecution
+xRun Script
+x/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Intermediates/frailLove.build/Debug-iphoneos/frailLove.build/Script-9255DD331112741900D6945E.sh
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Run custom shell script 'Run Script'134"PhaseScriptExecution Run\ Script Build/Intermediates/frailLove.build/Debug-iphoneos/frailLove.build/Script-9255DD331112741900D6945E.she35437287d1fb941^7aa63b287d1fb941^---0#0#1#--27654"PhaseScriptExecution Run\ Script Build/Intermediates/frailLove.build/Debug-iphoneos/frailLove.build/Script-9255DD331112741900D6945E.sh    cd /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove    export ACTION=build    export AD_HOC_CODE_SIGNING_ALLOWED=NO    export ALTERNATE_GROUP=staff    export ALTERNATE_MODE=u+w,go-w,a+rX    export ALTERNATE_OWNER=gentleman    export ALWAYS_SEARCH_USER_PATHS=NO    export ALWAYS_USE_SEPARATE_HEADERMAPS=YES    export APPLE_INTERNAL_DEVELOPER_DIR=/AppleInternal/Developer    export APPLE_INTERNAL_DIR=/AppleInternal    export APPLE_INTERNAL_DOCUMENTATION_DIR=/AppleInternal/Documentation    export APPLE_INTERNAL_LIBRARY_DIR=/AppleInternal/Library    export APPLE_INTERNAL_TOOLS=/AppleInternal/Developer/Tools    export APPLY_RULES_IN_COPY_FILES=NO    export ARCHS=armv7    export ARCHS_STANDARD="armv7 armv7s arm64"    export ARCHS_STANDARD_32_64_BIT="armv7 armv7s arm64"    export ARCHS_STANDARD_32_BIT="armv7 armv7s"    export ARCHS_STANDARD_64_BIT=arm64    export ARCHS_STANDARD_INCLUDING_64_BIT="armv7 armv7s arm64"    export ARCHS_UNIVERSAL_IPHONE_OS="armv7 armv7s arm64"    export AVAILABLE_PLATFORMS="iphonesimulator macosx iphoneos"    export BUILD_COMPONENTS="headers build"    export BUILD_DIR=/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Products    export BUILD_ROOT=/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Products    export BUILD_STYLE=    export BUILD_VARIANTS=normal    export BUILT_PRODUCTS_DIR=/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Products/Debug-iphoneos    export CACHE_ROOT=/var/folders/sz/168zl6bx1r39tt0yj54sf2x40000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode    export CCHROOT=/var/folders/sz/168zl6bx1r39tt0yj54sf2x40000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode    export CHMOD=/bin/chmod    export CHOWN=/usr/sbin/chown    export CLANG_CXX_LIBRARY=libstdc++    export CLASS_FILE_DIR=/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Intermediates/frailLove.build/Debug-iphoneos/frailLove.build/JavaClasses    export CLEAN_PRECOMPS=YES    export CLONE_HEADERS=NO    export CODESIGNING_FOLDER_PATH=/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Products/Debug-iphoneos/frailLove.app    export CODE_SIGNING_ALLOWED=YES    export CODE_SIGNING_REQUIRED=YES    export CODE_SIGN_CONTEXT_CLASS=XCiPhoneOSCodeSignContext    export CODE_SIGN_IDENTITY="iPhone Developer"    export COLOR_DIAGNOSTICS=NO    export COMBINE_HIDPI_IMAGES=NO    export COMMAND_MODE=legacy    export COMPOSITE_SDK_DIRS=/var/folders/sz/168zl6bx1r39tt0yj54sf2x40000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/CompositeSDKs    export COMPRESS_PNG_FILES=NO    export CONFIGURATION=Debug    export CONFIGURATION_BUILD_DIR=/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Products/Debug-iphoneos    export CONFIGURATION_TEMP_DIR=/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Intermediates/frailLove.build/Debug-iphoneos    export CONTENTS_FOLDER_PATH=frailLove.app    export COPYING_PRESERVES_HFS_DATA=NO    export COPY_PHASE_STRIP=YES    export COPY_RESOURCES_FROM_STATIC_FRAMEWORKS=YES    export CP=/bin/cp    export CREATE_INFOPLIST_SECTION_IN_BINARY=NO    export CURRENT_ARCH=armv7    export CURRENT_VARIANT=normal    export DEAD_CODE_STRIPPING=YES    export DEBUGGING_SYMBOLS=YES    export DEBUG_INFORMATION_FORMAT=dwarf-with-dsym    export DEFAULT_COMPILER=com.apple.compilers.llvm.clang.1_0    export DEFAULT_KEXT_INSTALL_PATH=/System/Library/Extensions    export DEPLOYMENT_LOCATION=NO    export DEPLOYMENT_POSTPROCESSING=NO    export DERIVED_FILES_DIR=/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Intermediates/frailLove.build/Debug-iphoneos/frailLove.build/DerivedSources    export DERIVED_FILE_DIR=/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Intermediates/frailLove.build/Debug-iphoneos/frailLove.build/DerivedSources    export DERIVED_SOURCES_DIR=/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Intermediates/frailLove.build/Debug-iphoneos/frailLove.build/DerivedSources    export DEVELOPER_APPLICATIONS_DIR=/Applications/Xcode.app/Contents/Developer/Applications    export DEVELOPER_BIN_DIR=/Applications/Xcode.app/Contents/Developer/usr/bin    export DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer    export DEVELOPER_FRAMEWORKS_DIR=/Applications/Xcode.app/Contents/Developer/Library/Frameworks    export DEVELOPER_FRAMEWORKS_DIR_QUOTED=/Applications/Xcode.app/Contents/Developer/Library/Frameworks    export DEVELOPER_LIBRARY_DIR=/Applications/Xcode.app/Contents/Developer/Library    export DEVELOPER_SDK_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs    export DEVELOPER_TOOLS_DIR=/Applications/Xcode.app/Contents/Developer/Tools    export DEVELOPER_USR_DIR=/Applications/Xcode.app/Contents/Developer/usr    export DEVELOPMENT_LANGUAGE=English    export DOCUMENTATION_FOLDER_PATH=frailLove.app/English.lproj/Documentation    export DO_HEADER_SCANNING_IN_JAM=NO    export DSTROOT=/tmp/frailLove.dst    export DT_TOOLCHAIN_DIR=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain    export DWARF_DSYM_FILE_NAME=frailLove.app.dSYM    export DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT=NO    export DWARF_DSYM_FOLDER_PATH=/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Products/Debug-iphoneos    export EFFECTIVE_PLATFORM_NAME=-iphoneos    export EMBEDDED_PROFILE_NAME=embedded.mobileprovision    export ENABLE_HEADER_DEPENDENCIES=YES    export ENTITLEMENTS_ALLOWED=YES    export ENTITLEMENTS_REQUIRED=YES    export EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS=".DS_Store .svn .git .hg CVS"    export EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES="*.nib *.lproj *.framework *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj"    export EXECUTABLES_FOLDER_PATH=frailLove.app/Executables    export EXECUTABLE_FOLDER_PATH=frailLove.app    export EXECUTABLE_NAME=frailLove    export EXECUTABLE_PATH=frailLove.app/frailLove    export FILE_LIST=/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Intermediates/frailLove.build/Debug-iphoneos/frailLove.build/Objects/LinkFileList    export FIXED_FILES_DIR=/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Intermediates/frailLove.build/Debug-iphoneos/frailLove.build/FixedFiles    export FRAMEWORKS_FOLDER_PATH=frailLove.app/Frameworks    export FRAMEWORK_FLAG_PREFIX=-framework    export FRAMEWORK_SEARCH_PATHS="/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Products/Debug-iphoneos "    export FRAMEWORK_VERSION=A    export FULL_PRODUCT_NAME=frailLove.app    export GCC3_VERSION=3.3    export GCC_C_LANGUAGE_STANDARD=c99    export GCC_INLINES_ARE_PRIVATE_EXTERN=YES    export GCC_OPTIMIZATION_LEVEL=0    export GCC_PFE_FILE_C_DIALECTS="c objective-c c++ objective-c++"    export GCC_PRECOMPILE_PREFIX_HEADER=YES    export GCC_PREFIX_HEADER=ofxiOS_Prefix.pch    export GCC_SYMBOLS_PRIVATE_EXTERN=NO    export GCC_THUMB_SUPPORT=NO    export GCC_TREAT_WARNINGS_AS_ERRORS=NO    export GCC_VERSION=com.apple.compilers.llvm.clang.1_0    export GCC_VERSION_IDENTIFIER=com_apple_compilers_llvm_clang_1_0    export GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO=NO    export GCC_WARN_ABOUT_POINTER_SIGNEDNESS=NO    export GCC_WARN_ABOUT_RETURN_TYPE=YES    export GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL=NO    export GCC_WARN_PROTOTYPE_CONVERSION=NO    export GCC_WARN_UNUSED_VARIABLE=YES    export GENERATE_MASTER_OBJECT_FILE=NO    export GENERATE_PKGINFO_FILE=YES    export GENERATE_PROFILING_CODE=NO    export GID=20    export GROUP=staff    export HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT=YES    export HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES=YES    export HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS=YES    export HEADERMAP_INCLUDES_PROJECT_HEADERS=YES    export HEADER_FMODEX="\"../../../libs/fmodex/include\""    export HEADER_FREEIMAGE="\"../../../libs/FreeImage/include\""    export HEADER_FREETYPE="\"../../../libs/freetype/include\""    export HEADER_FREETYPE2="\"../../../libs/freetype/include/freetype2\""    export HEADER_GLEW="\"../../../libs/glew/include\""    export HEADER_GLU="\"../../../libs/glu/include_ios\""    export HEADER_OF="\"../../../libs/openFrameworks/**\""    export HEADER_OFXACCELEROMETER="\"../../../addons/ofxAccelerometer/**\""    export HEADER_OFXIOS="\"../../../addons/ofxiOS/**\""    export HEADER_OFXMULTITOUCH="\"../../../addons/ofxMultiTouch/**\""    export HEADER_POCO="\"../../../libs/poco/include\""    export HEADER_RTAUDIO="\"../../../libs/rtaudio/include\""    export HEADER_SEARCH_PATHS="/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Products/Debug-iphoneos/include \"../../../libs/openFrameworks/**\" \"../../../addons/ofxiOS/**\" \"../../../addons/ofxMultiTouch/**\" \"../../../addons/ofxAccelerometer/**\" \"../../../libs/poco/include\" \"../../../libs/freetype/include\" \"../../../libs/freetype/include/freetype2\" \"../../../libs/fmodex/include\" \"../../../libs/glew/include\" \"../../../libs/FreeImage/include\" \"../../../libs/tess2/include\" \"../../../libs/rtaudio/include\" \"../../../libs/glu/include_ios\" \"../../../libs/openssl/include\""    export HEADER_SSL="\"../../../libs/openssl/include\""    export HEADER_TESS2="\"../../../libs/tess2/include\""    export ICONV=/usr/bin/iconv    export INFOPLIST_EXPAND_BUILD_SETTINGS=YES    export INFOPLIST_FILE=ofxiOS-Info.plist    export INFOPLIST_OUTPUT_FORMAT=binary    export INFOPLIST_PATH=frailLove.app/Info.plist    export INFOPLIST_PREPROCESS=NO    export INFOSTRINGS_PATH=frailLove.app/English.lproj/InfoPlist.strings    export INSTALL_DIR=/tmp/frailLove.dst/Applications    export INSTALL_GROUP=staff    export INSTALL_MODE_FLAG=u+w,go-w,a+rX    export INSTALL_OWNER=gentleman    export INSTALL_PATH=/Applications    export INSTALL_ROOT=/tmp/frailLove.dst    export IPHONEOS_DEPLOYMENT_TARGET=3.1    export JAVAC_DEFAULT_FLAGS="-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    export JAVA_APP_STUB=/System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    export JAVA_ARCHIVE_CLASSES=YES    export JAVA_ARCHIVE_TYPE=JAR    export JAVA_COMPILER=/usr/bin/javac    export JAVA_FOLDER_PATH=frailLove.app/Java    export JAVA_FRAMEWORK_RESOURCES_DIRS=Resources    export JAVA_JAR_FLAGS=cv    export JAVA_SOURCE_SUBDIR=.    export JAVA_USE_DEPENDENCIES=YES    export JAVA_ZIP_FLAGS=-urg    export JIKES_DEFAULT_FLAGS="+E +OLDCSO"    export KEEP_PRIVATE_EXTERNS=NO    export LD_DEPENDENCY_INFO_FILE=/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Intermediates/frailLove.build/Debug-iphoneos/frailLove.build/Objects-normal/armv7/frailLove_dependency_info.dat    export LD_GENERATE_MAP_FILE=NO    export LD_MAP_FILE_PATH=/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Intermediates/frailLove.build/Debug-iphoneos/frailLove.build/frailLove-LinkMap-normal-armv7.txt    export LD_NO_PIE=NO    export LD_QUOTE_LINKER_ARGUMENTS_FOR_COMPILER_DRIVER=YES    export LEGACY_DEVELOPER_DIR=/Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer    export LEX=lex    export LIBRARY_FLAG_NOSPACE=YES    export LIBRARY_FLAG_PREFIX=-l    export LIBRARY_KEXT_INSTALL_PATH=/Library/Extensions    export LIBRARY_SEARCH_PATHS="/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Products/Debug-iphoneos "    export LIB_CRYPTO="\"../../../libs/openssl/lib/osx/crypto.a\""    export LIB_CRYPTO_IPHONE="\"../../../libs/openssl/lib/ios/crypto.a\""    export LIB_FREEIMAGE="\"../../../libs/FreeImage/lib/osx/freeimage.a\""    export LIB_FREEIMAGE_IPHONE="\"../../../libs/FreeImage/lib/ios/freeimage.a\""    export LIB_FREETYPE_IPHONE="\"../../../libs/freetype/lib/ios/freetype.a\""    export LIB_GLU="\"../../../libs/glu/lib/ios/glu.a\""    export LIB_GLU_IPHONE="\"../../../libs/glu/lib/ios/glu-ios.a\""    export LIB_POCOCRYPTO_IPHONE="\"../../../libs/poco/lib/ios/PocoCrypto.a\""    export LIB_POCOFOUNDATION_IPHONE="\"../../../libs/poco/lib/ios/PocoFoundation.a\""    export LIB_POCONETSSL_IPHONE="\"../../../libs/poco/lib/ios/PocoNetSSL.a\""    export LIB_POCONET_IPHONE="\"../../../libs/poco/lib/ios/PocoNet.a\""    export LIB_POCOUTIL_IPHONE="\"../../../libs/poco/lib/ios/PocoUtil.a\""    export LIB_POCOXML_IPHONE="\"../../../libs/poco/lib/ios/PocoXML.a\""    export LIB_POCOZIP_IPHONE="\"../../../libs/poco/lib/ios/PocoZip.a\""    export LIB_SSL="\"../../../libs/openssl/lib/osx/ssl.a\""    export LIB_SSL_IPHONE="\"../../../libs/openssl/lib/ios/ssl.a\""    export LIB_TESS="\"../../../libs/tess2/lib/osx/tess2.a\""    export LIB_TESS_IPHONE="\"../../../libs/tess2/lib/ios/tess2.a\""    export LINKER_DISPLAYS_MANGLED_NAMES=NO    export LINK_FILE_LIST_normal_armv7=/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Intermediates/frailLove.build/Debug-iphoneos/frailLove.build/Objects-normal/armv7/frailLove.LinkFileList    export LINK_WITH_STANDARD_LIBRARIES=YES    export LOCALIZED_RESOURCES_FOLDER_PATH=frailLove.app/English.lproj    export LOCAL_ADMIN_APPS_DIR=/Applications/Utilities    export LOCAL_APPS_DIR=/Applications    export LOCAL_DEVELOPER_DIR=/Library/Developer    export LOCAL_LIBRARY_DIR=/Library    export MACH_O_TYPE=mh_execute    export MAC_OS_X_PRODUCT_BUILD_VERSION=12F45    export MAC_OS_X_VERSION_ACTUAL=1085    export MAC_OS_X_VERSION_MAJOR=1080    export MAC_OS_X_VERSION_MINOR=0805    export MISC_FLAGS="\"-ObjC\""    export MODULE_CACHE_DIR=/Users/gentleman/Library/Developer/Xcode/DerivedData/ModuleCache    export NATIVE_ARCH=armv7    export NATIVE_ARCH_32_BIT=i386    export NATIVE_ARCH_64_BIT=x86_64    export NATIVE_ARCH_ACTUAL=x86_64    export NO_COMMON=YES    export OBJECT_FILE_DIR=/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Intermediates/frailLove.build/Debug-iphoneos/frailLove.build/Objects    export OBJECT_FILE_DIR_normal=/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Intermediates/frailLove.build/Debug-iphoneos/frailLove.build/Objects-normal    export OBJROOT=/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Intermediates    export OF_CORE_HEADERS="\"../../../libs/openFrameworks/**\" \"../../../addons/ofxiOS/**\" \"../../../addons/ofxMultiTouch/**\" \"../../../addons/ofxAccelerometer/**\" \"../../../libs/poco/include\" \"../../../libs/freetype/include\" \"../../../libs/freetype/include/freetype2\" \"../../../libs/fmodex/include\" \"../../../libs/glew/include\" \"../../../libs/FreeImage/include\" \"../../../libs/tess2/include\" \"../../../libs/rtaudio/include\" \"../../../libs/glu/include_ios\" \"../../../libs/openssl/include\""    export OF_CORE_LIBS="\"-ObjC\"  \"../../../libs/FreeImage/lib/osx/freeimage.a\"        \"../../../libs/freetype/lib/ios/freetype.a\" \"../../../libs/FreeImage/lib/ios/freeimage.a\" \"../../../libs/poco/lib/ios/PocoNet.a\" \"../../../libs/poco/lib/ios/PocoNetSSL.a\" \"../../../libs/poco/lib/ios/PocoCrypto.a\" \"../../../libs/poco/lib/ios/PocoXML.a\" \"../../../libs/poco/lib/ios/PocoZip.a\" \"../../../libs/poco/lib/ios/PocoUtil.a\" \"../../../libs/poco/lib/ios/PocoFoundation.a\" \"../../../libs/tess2/lib/ios/tess2.a\" \"../../../libs/glu/lib/ios/glu.a\" \"../../../libs/glu/lib/ios/glu-ios.a\" \"../../../libs/openssl/lib/ios/ssl.a\" \"../../../libs/openssl/lib/ios/crypto.a\""    export OF_PATH=../../..    export ONLY_ACTIVE_ARCH=NO    export OPTIMIZATION_LEVEL=0    export OS=MACOS    export OSAC=/usr/bin/osacompile    export OTHER_LDFLAGS="\"-ObjC\"  \"../../../libs/FreeImage/lib/osx/freeimage.a\"        \"../../../libs/freetype/lib/ios/freetype.a\" \"../../../libs/FreeImage/lib/ios/freeimage.a\" \"../../../libs/poco/lib/ios/PocoNet.a\" \"../../../libs/poco/lib/ios/PocoNetSSL.a\" \"../../../libs/poco/lib/ios/PocoCrypto.a\" \"../../../libs/poco/lib/ios/PocoXML.a\" \"../../../libs/poco/lib/ios/PocoZip.a\" \"../../../libs/poco/lib/ios/PocoUtil.a\" \"../../../libs/poco/lib/ios/PocoFoundation.a\" \"../../../libs/tess2/lib/ios/tess2.a\" \"../../../libs/glu/lib/ios/glu.a\" \"../../../libs/glu/lib/ios/glu-ios.a\" \"../../../libs/openssl/lib/ios/ssl.a\" \"../../../libs/openssl/lib/ios/crypto.a\""    export PACKAGE_TYPE=com.apple.package-type.wrapper.application    export PASCAL_STRINGS=YES    export PATH="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin"    export PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES="/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Applications/Xcode.app/Contents/Developer/Headers /Applications/Xcode.app/Contents/Developer/SDKs /Applications/Xcode.app/Contents/Developer/Platforms"    export PBDEVELOPMENTPLIST_PATH=frailLove.app/pbdevelopment.plist    export PFE_FILE_C_DIALECTS=objective-c++    export PKGINFO_FILE_PATH=/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Intermediates/frailLove.build/Debug-iphoneos/frailLove.build/PkgInfo    export PKGINFO_PATH=frailLove.app/PkgInfo    export PLATFORM_DEVELOPER_APPLICATIONS_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Applications    export PLATFORM_DEVELOPER_BIN_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin    export PLATFORM_DEVELOPER_LIBRARY_DIR=/Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library    export PLATFORM_DEVELOPER_SDK_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs    export PLATFORM_DEVELOPER_TOOLS_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Tools    export PLATFORM_DEVELOPER_USR_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr    export PLATFORM_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform    export PLATFORM_NAME=iphoneos    export PLATFORM_PREFERRED_ARCH=arm64    export PLATFORM_PRODUCT_BUILD_VERSION=11D167    export PLIST_FILE_OUTPUT_FORMAT=binary    export PLUGINS_FOLDER_PATH=frailLove.app/PlugIns    export PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR=YES    export PRECOMP_DESTINATION_DIR=/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Intermediates/frailLove.build/Debug-iphoneos/frailLove.build/PrefixHeaders    export PRESERVE_DEAD_CODE_INITS_AND_TERMS=NO    export PRIVATE_HEADERS_FOLDER_PATH=frailLove.app/PrivateHeaders    export PRODUCT_NAME=frailLove    export PRODUCT_SETTINGS_PATH=/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/ofxiOS-Info.plist    export PRODUCT_TYPE=com.apple.product-type.application    export PROFILING_CODE=NO    export PROJECT=frailLove    export PROJECT_DERIVED_FILE_DIR=/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Intermediates/frailLove.build/DerivedSources    export PROJECT_DIR=/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove    export PROJECT_FILE_PATH=/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/frailLove.xcodeproj    export PROJECT_NAME=frailLove    export PROJECT_TEMP_DIR=/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Intermediates/frailLove.build    export PROJECT_TEMP_ROOT=/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Intermediates    export PROVISIONING_PROFILE_REQUIRED=YES    export PUBLIC_HEADERS_FOLDER_PATH=frailLove.app/Headers    export RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS=YES    export REMOVE_CVS_FROM_RESOURCES=YES    export REMOVE_GIT_FROM_RESOURCES=YES    export REMOVE_HG_FROM_RESOURCES=YES    export REMOVE_SVN_FROM_RESOURCES=YES    export RESOURCE_RULES_REQUIRED=YES    export REZ_COLLECTOR_DIR=/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Intermediates/frailLove.build/Debug-iphoneos/frailLove.build/ResourceManagerResources    export REZ_OBJECTS_DIR=/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Intermediates/frailLove.build/Debug-iphoneos/frailLove.build/ResourceManagerResources/Objects    export REZ_SEARCH_PATHS="/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Products/Debug-iphoneos "    export SCAN_ALL_SOURCE_FILES_FOR_INCLUDES=NO    export SCRIPTS_FOLDER_PATH=frailLove.app/Scripts    export SCRIPT_INPUT_FILE_COUNT=0    export SCRIPT_OUTPUT_FILE_COUNT=0    export SDKROOT=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk    export SDK_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk    export SDK_NAME=iphoneos7.1    export SDK_PRODUCT_BUILD_VERSION=11D167    export SED=/usr/bin/sed    export SEPARATE_STRIP=NO    export SEPARATE_SYMBOL_EDIT=NO    export SET_DIR_MODE_OWNER_GROUP=YES    export SET_FILE_MODE_OWNER_GROUP=NO    export SHALLOW_BUNDLE=YES    export SHARED_DERIVED_FILE_DIR=/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Products/Debug-iphoneos/DerivedSources    export SHARED_FRAMEWORKS_FOLDER_PATH=frailLove.app/SharedFrameworks    export SHARED_PRECOMPS_DIR=/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Intermediates/PrecompiledHeaders    export SHARED_SUPPORT_FOLDER_PATH=frailLove.app/SharedSupport    export SKIP_INSTALL=NO    export SOURCE_ROOT=/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove    export SRCROOT=/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove    export STRINGS_FILE_OUTPUT_ENCODING=binary    export STRIP_INSTALLED_PRODUCT=YES    export STRIP_STYLE=all    export SUPPORTED_DEVICE_FAMILIES=1,2    export SUPPORTED_PLATFORMS="iphonesimulator iphoneos"    export SYMROOT=/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Products    export SYSTEM_ADMIN_APPS_DIR=/Applications/Utilities    export SYSTEM_APPS_DIR=/Applications    export SYSTEM_CORE_SERVICES_DIR=/System/Library/CoreServices    export SYSTEM_DEMOS_DIR=/Applications/Extras    export SYSTEM_DEVELOPER_APPS_DIR=/Applications/Xcode.app/Contents/Developer/Applications    export SYSTEM_DEVELOPER_BIN_DIR=/Applications/Xcode.app/Contents/Developer/usr/bin    export SYSTEM_DEVELOPER_DEMOS_DIR="/Applications/Xcode.app/Contents/Developer/Applications/Utilities/Built Examples"    export SYSTEM_DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer    export SYSTEM_DEVELOPER_DOC_DIR="/Applications/Xcode.app/Contents/Developer/ADC Reference Library"    export SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR="/Applications/Xcode.app/Contents/Developer/Applications/Graphics Tools"    export SYSTEM_DEVELOPER_JAVA_TOOLS_DIR="/Applications/Xcode.app/Contents/Developer/Applications/Java Tools"    export SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR="/Applications/Xcode.app/Contents/Developer/Applications/Performance Tools"    export SYSTEM_DEVELOPER_RELEASENOTES_DIR="/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes"    export SYSTEM_DEVELOPER_TOOLS=/Applications/Xcode.app/Contents/Developer/Tools    export SYSTEM_DEVELOPER_TOOLS_DOC_DIR="/Applications/Xcode.app/Contents/Developer/ADC Reference Library/documentation/DeveloperTools"    export SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR="/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes/DeveloperTools"    export SYSTEM_DEVELOPER_USR_DIR=/Applications/Xcode.app/Contents/Developer/usr    export SYSTEM_DEVELOPER_UTILITIES_DIR=/Applications/Xcode.app/Contents/Developer/Applications/Utilities    export SYSTEM_DOCUMENTATION_DIR=/Library/Documentation    export SYSTEM_KEXT_INSTALL_PATH=/System/Library/Extensions    export SYSTEM_LIBRARY_DIR=/System/Library    export TARGETED_DEVICE_FAMILY=1    export TARGETNAME=frailLove    export TARGET_BUILD_DIR=/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Products/Debug-iphoneos    export TARGET_NAME=frailLove    export TARGET_TEMP_DIR=/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Intermediates/frailLove.build/Debug-iphoneos/frailLove.build    export TEMP_DIR=/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Intermediates/frailLove.build/Debug-iphoneos/frailLove.build    export TEMP_FILES_DIR=/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Intermediates/frailLove.build/Debug-iphoneos/frailLove.build    export TEMP_FILE_DIR=/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Intermediates/frailLove.build/Debug-iphoneos/frailLove.build    export TEMP_ROOT=/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Intermediates    export TOOLCHAINS=com.apple.dt.toolchain.XcodeDefault    export UID=501    export UNLOCALIZED_RESOURCES_FOLDER_PATH=frailLove.app    export UNSTRIPPED_PRODUCT=NO    export USER=gentleman    export USER_APPS_DIR=/Users/gentleman/Applications    export USER_LIBRARY_DIR=/Users/gentleman/Library    export USE_DYNAMIC_NO_PIC=YES    export USE_HEADERMAP=YES    export USE_HEADER_SYMLINKS=NO    export VALIDATE_PRODUCT=NO    export VALID_ARCHS="armv6 armv7"    export VERBOSE_PBXCP=NO    export VERSIONPLIST_PATH=frailLove.app/version.plist    export VERSION_INFO_BUILDER=gentleman    export VERSION_INFO_FILE=frailLove_vers.c    export VERSION_INFO_STRING="\"@(#)PROGRAM:frailLove  PROJECT:frailLove-\""    export WARNING_LDFLAGS=-no_arch_warnings    export WRAPPER_EXTENSION=app    export WRAPPER_NAME=frailLove.app    export WRAPPER_SUFFIX=.app    export XCODE_APP_SUPPORT_DIR=/Applications/Xcode.app/Contents/Developer/Library/Xcode    export XCODE_PRODUCT_BUILD_VERSION=5B1008    export XCODE_VERSION_ACTUAL=0511    export XCODE_VERSION_MAJOR=0500    export XCODE_VERSION_MINOR=0510    export XPCSERVICES_FOLDER_PATH=frailLove.app/XPCServices    export YACC=yacc    export arch=armv7    export variant=normal    /bin/sh -c /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Intermediates/frailLove.build/Debug-iphoneos/frailLove.build/Script-9255DD331112741900D6945E.sh36"C4572094-EB8F-4A16-B08C-238AAF3C080C-
+b103AA426-D034-47EE-84D7-73AD65A9996F
+
+CProcessInfoPlistFile /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Products/Debug-iphoneos/frailLove.app/Info.plist /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/ofxiOS-Info.plist
+s421494052.075131
+e421494052.077952
+r1
+xProcessInfoPlistFile
+x/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Products/Debug-iphoneos/frailLove.app/Info.plist
+x/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/ofxiOS-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Process /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/ofxiOS-Info.plist93"ProcessInfoPlistFile Build/Products/Debug-iphoneos/frailLove.app/Info.plist ofxiOS-Info.plistba4a13247d1fb941^30f513247d1fb941^---0#0#1#-19%DVTDocumentLocation2@107"file://localhost/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/ofxiOS-Info.plist0000000000000000^966"ProcessInfoPlistFile Build/Products/Debug-iphoneos/frailLove.app/Info.plist ofxiOS-Info.plist    cd /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/ofxiOS-Info.plist -genpkginfo /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Products/Debug-iphoneos/frailLove.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Products/Debug-iphoneos/frailLove.app/ResourceRules.plist -o /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Products/Debug-iphoneos/frailLove.app/Info.plist36"005E3153-6514-4EEF-878F-6C5EA2E8885A-
+b103AA426-D034-47EE-84D7-73AD65A9996F
+
+CProcessPCH++ /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Intermediates/PrecompiledHeaders/ofxiOS_Prefix-cstlzcsbskfggxeomvgnilxpwcto/ofxiOS_Prefix.pch.pch ofxiOS_Prefix.pch normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s421494052.311509
+e421494053.021737
+r1
+xProcessPCH++
+x/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Intermediates/PrecompiledHeaders/ofxiOS_Prefix-cstlzcsbskfggxeomvgnilxpwcto/ofxiOS_Prefix.pch.pch
+xofxiOS_Prefix.pch
+xnormal
+xarmv7
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/ofxiOS_Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection28"Precompile ofxiOS_Prefix.pch205"ProcessPCH++ Build/Intermediates/PrecompiledHeaders/ofxiOS_Prefix-cstlzcsbskfggxeomvgnilxpwcto/ofxiOS_Prefix.pch.pch ofxiOS_Prefix.pch normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler6adc4f247d1fb941^869205257d1fb941^---0#0#1#-19%DVTDocumentLocation2@107"file://localhost/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/ofxiOS_Prefix.pch0000000000000000^4890"ProcessPCH++ Build/Intermediates/PrecompiledHeaders/ofxiOS_Prefix-cstlzcsbskfggxeomvgnilxpwcto/ofxiOS_Prefix.pch.pch ofxiOS_Prefix.pch normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++-header -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -stdlib=libstdc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wno-protocol -Wdeprecated-declarations -Wno-invalid-offsetof -g -fvisibility-inlines-hidden -Wno-sign-conversion -miphoneos-version-min=3.1 -iquote /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Intermediates/frailLove.build/Debug-iphoneos/frailLove.build/frailLove-generated-files.hmap -I/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Intermediates/frailLove.build/Debug-iphoneos/frailLove.build/frailLove-own-target-headers.hmap -I/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Intermediates/frailLove.build/Debug-iphoneos/frailLove.build/frailLove-all-target-headers.hmap -iquote /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Intermediates/frailLove.build/Debug-iphoneos/frailLove.build/frailLove-project-headers.hmap -I/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Products/Debug-iphoneos/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../addons/ofxiOS -I../../../addons/ofxiOS/src -I../../../addons/ofxiOS/src/app -I../../../addons/ofxiOS/src/core -I../../../addons/ofxiOS/src/events -I../../../addons/ofxiOS/src/gl -I../../../addons/ofxiOS/src/sound -I../../../addons/ofxiOS/src/utils -I../../../addons/ofxiOS/src/video -I../../../addons/ofxMultiTouch -I../../../addons/ofxMultiTouch/src -I../../../addons/ofxAccelerometer -I../../../addons/ofxAccelerometer/src -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/rtaudio/include -I../../../libs/glu/include_ios -I../../../libs/openssl/include -I/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Intermediates/frailLove.build/Debug-iphoneos/frailLove.build/DerivedSources/armv7 -I/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Intermediates/frailLove.build/Debug-iphoneos/frailLove.build/DerivedSources -F/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Products/Debug-iphoneos --serialize-diagnostics /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Intermediates/PrecompiledHeaders/ofxiOS_Prefix-cstlzcsbskfggxeomvgnilxpwcto/ofxiOS_Prefix.pch.dia -MMD -MT dependencies -MF /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Intermediates/PrecompiledHeaders/ofxiOS_Prefix-cstlzcsbskfggxeomvgnilxpwcto/ofxiOS_Prefix.pch.d -c /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/ofxiOS_Prefix.pch -o /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Intermediates/PrecompiledHeaders/ofxiOS_Prefix-cstlzcsbskfggxeomvgnilxpwcto/ofxiOS_Prefix.pch.pch36"BAF083A6-E2DF-4F7E-896B-CB879F137B1A-
+b103AA426-D034-47EE-84D7-73AD65A9996F
+
+CProcessPCH++ /Users/gentleman/Library/Developer/Xcode/DerivedData/frailLove-dctckobafwpufgexhswkpungblur/Index/PrecompiledHeaders/ofxiOS_Prefix-cckpycztxblcrybsyucpgzaprwpy_ast/ofxiOS_Prefix.pch.pch ofxiOS_Prefix.pch normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Intermediates/frailLove.build/Debug-iphoneos/frailLove.build/frailLove.xcent
+s421494056.271569
+e421494056.274182
+r1
+xProcessProductPackaging
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist
+x/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Intermediates/frailLove.build/Debug-iphoneos/frailLove.build/frailLove.xcent
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection227"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist Build/Intermediates/frailLove.build/Debug-iphoneos/frailLove.build/frailLove.xcent227"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist Build/Intermediates/frailLove.build/Debug-iphoneos/frailLove.build/frailLove.xcentaf9445287d1fb941^b63146287d1fb941^---0#0#1#-19%DVTDocumentLocation2@172"file://localhost/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Intermediates/frailLove.build/Debug-iphoneos/frailLove.build/frailLove.xcent003820abdcffdf42^840"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist Build/Intermediates/frailLove.build/Debug-iphoneos/frailLove.build/frailLove.xcent    cd /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist -entitlements -format xml -o /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Intermediates/frailLove.build/Debug-iphoneos/frailLove.build/frailLove.xcent36"2D3C9AF2-ACEF-4820-A628-7C6DD13AB52A-
+b103AA426-D034-47EE-84D7-73AD65A9996F
+
+CProcessProductPackaging /Users/gentleman/Library/MobileDevice/Provisioning\ Profiles/E9D30244-51FB-49D3-9B18-81C49F03D4A6.mobileprovision /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Products/Debug-iphoneos/frailLove.app/embedded.mobileprovision
+s421494056.241642
+e421494056.261815
+r1
+xProcessProductPackaging
+x/Users/gentleman/Library/MobileDevice/Provisioning Profiles/E9D30244-51FB-49D3-9B18-81C49F03D4A6.mobileprovision
+x/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Products/Debug-iphoneos/frailLove.app/embedded.mobileprovision
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection206"ProcessProductPackaging /Users/gentleman/Library/MobileDevice/Provisioning\ Profiles/E9D30244-51FB-49D3-9B18-81C49F03D4A6.mobileprovision Build/Products/Debug-iphoneos/frailLove.app/embedded.mobileprovision206"ProcessProductPackaging /Users/gentleman/Library/MobileDevice/Provisioning\ Profiles/E9D30244-51FB-49D3-9B18-81C49F03D4A6.mobileprovision Build/Products/Debug-iphoneos/frailLove.app/embedded.mobileprovision5fec3d287d1fb941^350843287d1fb941^---0#0#1#-19%DVTDocumentLocation2@158"file://localhost/Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Products/Debug-iphoneos/frailLove.app/embedded.mobileprovision003820abdcffdf42^772"ProcessProductPackaging /Users/gentleman/Library/MobileDevice/Provisioning\ Profiles/E9D30244-51FB-49D3-9B18-81C49F03D4A6.mobileprovision Build/Products/Debug-iphoneos/frailLove.app/embedded.mobileprovision    cd /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Users/gentleman/Library/MobileDevice/Provisioning\ Profiles/E9D30244-51FB-49D3-9B18-81C49F03D4A6.mobileprovision -o /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Products/Debug-iphoneos/frailLove.app/embedded.mobileprovision36"319AC3A1-151A-4CF9-B5C6-9E6D2EC678D0-
+b103AA426-D034-47EE-84D7-73AD65A9996F
+
+CTouch /Users/gentleman/Developer/oF/of_v0.8.1_ios_release/apps/myApps/frailLove/Build/Products/Debug-iphoneos/frailLove.app
+r0
+
